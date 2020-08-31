@@ -1,6 +1,9 @@
 package main
 import "fmt"
 //type amount func(int,int)int
+func amount (a int,b int)int {
+	return a*b
+}
 func main(){
 	//map
 	 menu := map[string]int{
@@ -24,8 +27,8 @@ func main(){
     //user defined functions
     var total int 
     total=amount(40,5)
-    fmt.Println("The total is :%d ",total)
-
+    fmt.Printf("The total is: %d \n",total)
+ 
 
 }
 
